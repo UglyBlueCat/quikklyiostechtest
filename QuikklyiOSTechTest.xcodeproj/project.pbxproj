@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00785BA21C83311600A29DBF /* QuikLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00785BA11C83311600A29DBF /* QuikLabel.m */; };
+		00AF17431C822C1F0076481D /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00AF17421C822C1F0076481D /* readme.txt */; };
 		5081318A1C7A659200D93378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 508131891C7A659200D93378 /* main.m */; };
 		5081318D1C7A659200D93378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081318C1C7A659200D93378 /* AppDelegate.m */; };
 		508131901C7A659200D93378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081318F1C7A659200D93378 /* ViewController.m */; };
 		508131931C7A659200D93378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508131911C7A659200D93378 /* Main.storyboard */; };
 		508131951C7A659200D93378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508131941C7A659200D93378 /* Assets.xcassets */; };
 		508131981C7A659200D93378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508131961C7A659200D93378 /* LaunchScreen.storyboard */; };
+		508131A61C7A748000D93378 /* AnagramGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 508131A51C7A748000D93378 /* AnagramGame.m */; };
+		508131A91C7A7FD400D93378 /* WordDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 508131A81C7A7FD400D93378 /* WordDictionary.m */; };
+		508131AD1C7A89F400D93378 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 508131AC1C7A89F400D93378 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00785BA01C83311600A29DBF /* QuikLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuikLabel.h; sourceTree = "<group>"; };
+		00785BA11C83311600A29DBF /* QuikLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuikLabel.m; sourceTree = "<group>"; };
+		00AF17421C822C1F0076481D /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		508131851C7A659200D93378 /* QuikklyiOSTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikklyiOSTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		508131891C7A659200D93378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5081318B1C7A659200D93378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,11 @@
 		508131941C7A659200D93378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		508131971C7A659200D93378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		508131991C7A659200D93378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508131A41C7A748000D93378 /* AnagramGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnagramGame.h; sourceTree = "<group>"; };
+		508131A51C7A748000D93378 /* AnagramGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnagramGame.m; sourceTree = "<group>"; };
+		508131A71C7A7FD400D93378 /* WordDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDictionary.h; sourceTree = "<group>"; };
+		508131A81C7A7FD400D93378 /* WordDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDictionary.m; sourceTree = "<group>"; };
+		508131AC1C7A89F400D93378 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,7 @@
 		5081317C1C7A659100D93378 = {
 			isa = PBXGroup;
 			children = (
+				00AF17421C822C1F0076481D /* readme.txt */,
 				508131871C7A659200D93378 /* QuikklyiOSTechTest */,
 				508131861C7A659200D93378 /* Products */,
 			);
@@ -58,6 +72,10 @@
 		508131871C7A659200D93378 /* QuikklyiOSTechTest */ = {
 			isa = PBXGroup;
 			children = (
+				508131A71C7A7FD400D93378 /* WordDictionary.h */,
+				508131A81C7A7FD400D93378 /* WordDictionary.m */,
+				508131A41C7A748000D93378 /* AnagramGame.h */,
+				508131A51C7A748000D93378 /* AnagramGame.m */,
 				5081318B1C7A659200D93378 /* AppDelegate.h */,
 				5081318C1C7A659200D93378 /* AppDelegate.m */,
 				5081318E1C7A659200D93378 /* ViewController.h */,
@@ -67,6 +85,8 @@
 				508131961C7A659200D93378 /* LaunchScreen.storyboard */,
 				508131991C7A659200D93378 /* Info.plist */,
 				508131881C7A659200D93378 /* Supporting Files */,
+				00785BA01C83311600A29DBF /* QuikLabel.h */,
+				00785BA11C83311600A29DBF /* QuikLabel.m */,
 			);
 			path = QuikklyiOSTechTest;
 			sourceTree = "<group>";
@@ -74,6 +94,7 @@
 		508131881C7A659200D93378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				508131AC1C7A89F400D93378 /* words.txt */,
 				508131891C7A659200D93378 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +131,7 @@
 				TargetAttributes = {
 					508131841C7A659200D93378 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EY2F3229H7;
 					};
 				};
 			};
@@ -136,8 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AF17431C822C1F0076481D /* readme.txt in Resources */,
 				508131981C7A659200D93378 /* LaunchScreen.storyboard in Resources */,
 				508131951C7A659200D93378 /* Assets.xcassets in Resources */,
+				508131AD1C7A89F400D93378 /* words.txt in Resources */,
 				508131931C7A659200D93378 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				508131901C7A659200D93378 /* ViewController.m in Sources */,
+				508131A61C7A748000D93378 /* AnagramGame.m in Sources */,
 				5081318D1C7A659200D93378 /* AppDelegate.m in Sources */,
+				508131A91C7A7FD400D93378 /* WordDictionary.m in Sources */,
+				00785BA21C83311600A29DBF /* QuikLabel.m in Sources */,
 				5081318A1C7A659200D93378 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QuikklyiOSTechTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quikkly.QuikklyiOSTechTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QuikklyiOSTechTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quikkly.QuikklyiOSTechTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +335,7 @@
 				5081319E1C7A659200D93378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
